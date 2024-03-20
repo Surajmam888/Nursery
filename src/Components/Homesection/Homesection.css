@@ -1,0 +1,38 @@
+.top {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  padding: 2rem;
+  gap: 1rem;
+ 
+}
+
+.top .img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.top .img:hover {
+  transform: scale(1.1);
+}
+
+/* Add responsive styles */
+@media only screen and (max-width: 768px) {
+  .top {
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    /* margin-bottom: '1rem'; */
+    /* background:rgb(240, 226, 228); */
+    padding-left: 0.1rem;
+    gap: 0;
+
+  }
+
+  .top .img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+  
+}

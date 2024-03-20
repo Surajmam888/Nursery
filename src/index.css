@@ -1,0 +1,41 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+body{
+    margin: 0;
+ 
+   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+
+    
+    
+}
+
+/* body {
+    animation: hithere 20s ease infinite;
+  }
+  @keyframes hithere {
+    30% { transform: scale(1.2); }
+    40%, 60% { transform: rotate(-20deg) scale(1.2); }
+    50% { transform: rotate(20deg) scale(1.2); }
+    70% { transform: rotate(0deg) scale(1.2); }
+    100% { transform: scale(1); }
+  } */
+  
+
+
+/* 
+  body {
+    animation: grow 8s  ease-in;
+  }
+  @keyframes grow {
+    from { transform: scale(0); }
+    to { transform: scale(-1); }
+
+  } */
+
+
+  

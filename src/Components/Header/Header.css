@@ -1,0 +1,31 @@
+
+
+.img_logo {
+  width: 13rem; /* Default width for the logo */
+}
+
+
+
+  /* Responsive styles for smaller screens (phones) */
+  @media only screen and (max-width: 600px) {
+    .img_logo {
+      width: 5rem;
+      margin-top: 5px;
+      /* display: inline-block; */
+    
+
+
+     
+    
+    }
+  }
+
+  /* Responsive styles for small screens (tablets) */
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+    .img_logo {
+      width: 80%; /* Adjust the width for tablets */
+    }
+  }
+
+
+

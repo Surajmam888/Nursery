@@ -1,0 +1,92 @@
+.Textbox{
+    position: relative;
+    /* width: 50%; */
+    min-height:10rem ;
+    left: 1rem;
+    /* border: 1px solid blue; */
+    /* text-align: center; */
+    bottom:15rem;
+    
+    
+}
+
+
+
+/* Define the fade-in animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Slide in from bottom */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply styles to the ImageList container */
+  .MasonryImageList-container {
+    width: 100%;
+  /* margin: 0; */
+    margin-top: 3rem;
+    /* background: #000; */
+  }
+  
+  /* Apply styles to the ImageList items */
+  .MasonryImageList-item img {
+    animation: fadeIn 0.5s ease-in-out;
+    border-radius: 0.5rem;
+  }
+  
+  /* Apply styles to the box containing the ImageList */
+  .MasonryImageList-box {
+    min-height: 450px;
+    padding: 3rem;
+    /* border-radius: 2rem; */
+    /* background-color: #3f51b5; Change the background color */
+    position: relative;
+
+  }
+  
+  /* Apply styles to the title */
+  .MasonryImageList-title {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #0BB00C;
+    /* margin-left: rem; */
+    font-weight: 500;
+    /* margin-bottom: 1rem; */
+  }
+
+
+  .spn_hover  {
+    color: black;
+      }
+      .spn_hover:hover {
+        color: crimson;
+          }
+  
+  /* Apply styles to the ImageList itself */
+  .MasonryImageList-list {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  
+  /* Apply styles to the ImageList items */
+  .MasonryImageList-item {
+    width: 100%; /* Adjust width based on the number of columns */
+    padding: 0.5rem;
+  }
+  
+  /* Apply styles to the images */
+  .MasonryImageList-img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  
+  /* Apply styles to the images on hover */
+  .MasonryImageList-img:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  

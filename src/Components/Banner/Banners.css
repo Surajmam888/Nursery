@@ -1,0 +1,77 @@
+
+
+
+
+  .banner-paper {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    /* margin-top: 3rem; */
+  }
+  
+  .banner-image {
+    width: 100%; /* Adjust the size as needed */
+    height: 20rem;
+    /* transition: transform 0.3s ease, filter 0.3s ease; */
+  }
+  
+  .banner-paper:hover .banner-image {
+    transform: scale(1.1); /* Increase the scale on hover */
+    filter: brightness(0.8);
+  }
+  
+  /* New Animation */
+  
+  @keyframes fadeInFromBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .banner-paper:hover .banner-image {
+    /* animation: fadeInFromBottom 0.5s ease; */
+    border-radius: 20px;
+  }
+  
+  /* Overlay Animation */
+  
+  .banner-paper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .banner-paper:hover::after {
+    opacity: 1;
+    background: #00000000;
+  }
+  
+  .banner-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .banner-paper:hover .banner-overlay {
+    opacity: 1;
+  }
+  
+  .banner-overlay button {
+    display: block;
+    margin: 0 auto;
+  }
+  

@@ -1,0 +1,76 @@
+/* Add these styles to your CSS file */
+
+.customerFeedbackCard {
+    /* border: 1px solid  #0BB00C; */
+    padding: 20px;
+    /* border-radius: 50% 20% / 10% 40%; */
+    border-radius: 1rem;
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    /* background: linear-gradient(#e66465, #9198e5); */
+  }
+
+
+
+  .customerFeedbackCard:hover {
+/* background:rgb(183, 181, 181); */
+border: 1px solid  #030b03;
+
+  }
+  
+  .customerRating {
+    font-size: 24px;
+    /* margin-bottom: 1px; */
+  }
+  
+  .star {
+    color: gold;
+  }
+  
+  .customerName {
+    font-weight: bold;
+    /* margin-bottom: 10px; */
+    margin-top: 10px;
+  }
+  
+  .customerComments {
+    margin-top: 1rem;
+    font-size: 12px;
+    font-style: normal;
+  }
+
+
+
+  /* .customerFeedbackCard {
+    animation: grow 8s  infinite;
+  }
+  @keyframes grow {
+    from { transform: scale(0.5); }
+    to { transform: scale(1); }
+
+  }  */
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .customerFeedbackCard {
+     height: 200px;
+        width: 200px; /* Make the card take full width on smaller screens */
+        margin-left: 3rem;
+    }
+  
+    .customerRating {
+      font-size: 18px; /* Adjust font size for smaller screens */
+    }
+  
+    .customerName {
+      font-size: 20px; /* Adjust font size for smaller screens */
+    }
+  
+    .customerComments {
+      font-size: 12px; /* Adjust font size for smaller screens */
+    }
+  }
+  

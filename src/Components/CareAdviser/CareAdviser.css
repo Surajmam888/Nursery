@@ -1,0 +1,160 @@
+#IdeasInspiration {
+  
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .IdeasInspiration_Text {
+    padding: 2rem;
+    /* margin-top: 3rem; */
+    margin-left: 5rem;
+    color: #0BB00C;
+
+
+  }
+  
+  .IdeasInspiration_Text h1 {
+    font-size: 2.5rem;
+    /* position: absolute; */
+    /* rotate: -18deg; */
+    /* left: 20rem; */
+
+    /* top: 2rem; */
+  
+
+    
+  }
+
+  
+  .IdeasInspiration_Text p {
+    color: rgb(14, 2, 2);
+    text-align:justify;
+    margin-top: 1rem;
+    font-size: 14px;
+    max-width: 350px; 
+
+    animation-duration: 3s;
+  animation-name: slidein;
+    /* margin-top: 3rem; */
+
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    75% {
+      font-size: 300%;
+      margin-left: 25%;
+      width: 150%;
+    }
+  
+    25% {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  .IdeasInspiration_Image {
+    flex: 1;
+    /* margin-top: rem; */
+    text-align: center;
+  }
+  
+  
+  .IdeasInspiration_Image  img {
+    width: 100%;
+  /* margin-bottom: 3rem; */
+    border-radius: 10px;
+    height: auto;
+    animation: slideUp 1.5s ease-in-out infinite alternate;
+  }
+  
+ 
+  @keyframes slideUp {
+    0% {
+      transform: translateY(50px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .IdeasInspiration_list {
+    padding: 2rem;
+  }
+
+
+  .IdeasInspiration_list ul{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .IdeasInspiration_list li {
+    line-height: 2rem;
+    color:#0BB00C;
+    font-size: medium;
+list-style:circle;
+    font-weight: 500;
+  }
+  
+ 
+  @media screen and (max-width: 768px) {
+    .IdeasInspiration_Text p {
+font-size: 13px;
+justify-content: center;
+text-align: justify;
+margin: 2rem;
+/* margin-left: 5rem; */
+
+
+    }
+    
+    
+    #IdeasInspiration {
+
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .IdeasInspiration_Text {
+      margin: 0;
+      text-align: center;
+      padding: 1rem; 
+    }
+  
+    .IdeasInspiration_Image {
+      margin-top: 2rem;
+      max-width: 100%; 
+      border-radius: 10px;
+    }
+  
+    .IdeasInspiration_list {
+      text-align: center;
+      padding: 1rem;
+    }
+  
+    .IdeasInspiration_list li {
+      line-height: 1.5rem; 
+      font-size: 14px; 
+
+  
+   
+   
+    }
+
+
+    .IdeasInspiration_list ul{
+      display: flex;
+      flex-direction: column;
+    text-align: left;
+      /* justify-content: left; */
+      margin: 2rem;
+    }
+    
+
+    
+  }
+  

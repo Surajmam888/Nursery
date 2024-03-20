@@ -1,0 +1,48 @@
+    .Textcontainer {
+        width: 100%;
+        height: 30vh    ;               
+        flex-direction: column; /* Change to column layout on small screens */
+        justify-content: space-around;
+        background: #F8F8F8;
+        margin-top: 2rem;
+        padding: rem; /* Add padding for better spacing */
+      }
+      
+      .Textcontainer .TextBox {
+        position: relative;
+        top: 1rem;
+        text-align: center; /* Center text on small screens */
+      }
+      
+      .TextBox .Text {
+        font-size: 1.5rem;
+        /* color: aquamarine; */
+      }
+      
+      .Imagges {
+        margin-top: 1rem;
+        text-align: center; /* Center images on small screens */
+      }
+      
+      .Imagges img {
+        width: 100px;
+        cursor: pointer;
+      }
+      
+      .Imagges img:hover {
+        transform: scale(1.1);
+      }
+      
+      /* Add responsive styles */
+      @media only screen and (min-width: 768px) {
+        .Textcontainer {
+          flex-direction: row; /* Change back to row layout on larger screens */
+          height: 20vh;
+        }
+      
+        .Imagges {
+          margin-top: 1rem;
+          margin-right: 3rem; /* Adjust margin for larger screens */
+        }
+      }
+      

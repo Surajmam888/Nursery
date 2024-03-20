@@ -1,0 +1,79 @@
+
+
+
+
+
+#Customerssaying {
+    margin-top: 3rem;
+    
+    /* min-height: calc(100vh - 4rem); */
+  
+    width: 100%;
+    /* border: 1px solid black; */
+
+    /* max-width: 90rem; */
+  }
+  
+  .Customerssaying_Text {
+   
+
+    /* color:#0BB00C; */
+    text-align: center;
+
+  }
+  
+  .Customerssaying_Text h1 {
+    font-weight: 700;
+    cursor:default;
+    color: #0BB00C;
+
+    font-size: 2.5rem;
+  }
+
+  .spn_hove{
+    color: black;
+  }
+  .spn_hove:hover{
+    color: red;
+  }
+  
+  p {
+    margin-top: 1rem;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    /* font-size: 8px; */
+  }
+  
+
+
+.clintReview{
+  padding: 2rem;
+}
+
+  /* Responsive Styles for Small Devices */
+  @media screen and (max-width: 576px) {
+    .Customerssaying_Text {
+        padding: 0rem;
+        margin-left: 1rem;
+      /* margin-left: 3px; Adjust margin for small devices */
+
+    }
+.Customerssaying_Text h1 {
+    font-weight: 400;
+    font-size: 20px;
+    /* text-align: center; */
+  }
+
+  .Customerssaying_Text p {
+    margin-top: 1rem;
+    color: black;
+    font-size: small;
+  }
+  .clintReview{
+    padding: 0;
+  }
+
+
+
+  }
+  

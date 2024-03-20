@@ -1,0 +1,81 @@
+
+
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.Right {
+  display: flex;
+  align-items: center;
+}
+
+.btnReward {
+  margin-right: 10px;
+border: none;
+
+  background-color:#0BB00C'
+}
+
+
+.btnReward:hover{
+  background-color:#0bb00ba3;
+
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-right: 15px;
+  cursor:pointer;
+}
+
+.contacts ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.contacts ul li {
+  margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .Navbar {
+    display:  none;
+
+  }
+
+  .Right {
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  ul {
+    margin-top: 10px;
+    justify-content: center;
+  }
+
+  .btnReward {
+    display: none;
+  }
+
+  .contacts {
+    display: none;
+  }
+}
